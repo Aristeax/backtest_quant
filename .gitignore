@@ -1,0 +1,9 @@
+# Ignore backup script
+scripts/backup_project.py
+
+# Ignore virtual environment
+venv/
+
+# Ignore outputs and checkpoints
+outputs/
+**/.ipynb_checkpoints/
