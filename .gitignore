@@ -10,3 +10,6 @@ outputs/
 
 # Ignore Jupyter notebooks
 notebooks/
+
+# Ignore VS Code workspace settings
+*.code-workspace
