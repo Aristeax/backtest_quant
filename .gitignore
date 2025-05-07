@@ -4,6 +4,13 @@ scripts/backup_project.py
 # Ignore virtual environment
 venv/
 
+# Ignore Python cache files 
+__pycache__/
+*.py[cod]
+
+# Ignore data files
+data/
+
 # Ignore outputs and checkpoints
 outputs/
 **/.ipynb_checkpoints/
