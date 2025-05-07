@@ -7,3 +7,6 @@ venv/
 # Ignore outputs and checkpoints
 outputs/
 **/.ipynb_checkpoints/
+
+# Ignore Jupyter notebooks
+notebooks/
