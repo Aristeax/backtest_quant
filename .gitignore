@@ -4,10 +4,6 @@ scripts/backup_project.py
 # Ignore virtual environment
 venv/
 
-# Ignore Python cache files 
-__pycache__/
-*.py[cod]
-
 # Ignore data files
 data/
 
