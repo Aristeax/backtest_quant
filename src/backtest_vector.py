@@ -1,9 +1,10 @@
 import pandas as pd
+from typing import Tuple
 
 
 def vector_backtest(
     df: pd.DataFrame, initial_cash: float = 500_000, commission: float = 0.002
-) -> (pd.DataFrame, pd.DataFrame):
+) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     Simulate bar-by-bar PnL using precomputed 'Signal'.
     Returns:
